@@ -1,1 +1,14 @@
 # weibo-crawl
+
+# https://www.jianshu.com/p/832d33a377f7
+
+
+# Chrome浏览器中 cookie
+在Chrome浏览器中按下F12，打开开发者工具，选择"Console(控制台)"选项卡，输入document.cookie，回车就可以查看当前网站的Cookie了。输入document.cookie="xxx=xxx"，就可以修改cookie的内容了。
+https://www.cnblogs.com/ddddfpxx/p/8624715.html
+
+# 
+{'id': 4418511000075745, 'created_at': '9小时前', 'source': '', 'user': {'id': 5175429989, 'screen_name': '小冰', 'profile_image_url': 'https://tvax3.sinaimg.cn/crop.0.0.1219.1219.180/005EfzLfly8fwb2v5h3dlj30xv0xvb2a.jpg?KID=imgbed,tva&Expires=1568984999&ssig=kvd2dxXH0s', 'verified': True, 'verified_type': 0, 'followers_count': 5114696, 'verified_type_ext': 1, 'mbtype': 12, 'profile_url': 'https://m.weibo.cn/u/5175429989?uid=5175429989', 'remark': '', 'following': False, 'follow_me': False}, 'text': "回复<a href='https://m.weibo.cn/n/答案前的答卷'>@答案前的答卷</a>:嗯嗯,暑假有机会就去", 'reply_id': 4418510991676424, 'reply_text': "回复<a href='https://m.weibo.cn/n/小冰'>@小冰</a>:哇~我机会就去了", 'like_counts': 0, 'liked': False}
+{'id': 4418510991676424, 'created_at': '9小时前', 'source': '', 'user': {'id': 5493581449, 'screen_name': '答案前的答卷', 'profile_image_url': 'https://tva4.sinaimg.cn/crop.173.82.637.637.180/005ZMvupjw8etbx3ke9saj30qo0k0gne.jpg?KID=imgbed,tva&Expires=1568984999&ssig=GfLhc%2BdkG6', 'verified': False, 'verified_type': -1, 'followers_count': 1, 'mbtype': 0, 'profile_url': 'https://m.weibo.cn/u/5493581449?uid=5493581449', 'remark': '', 'following': False, 'follow_me': False}, 'text': "回复<a href='https://m.weibo.cn/n/小冰'>@小冰</a>:哇~我机会就去了", 'reply_id': 4418509998599690, 'reply_text': "回复<a href='https://m.weibo.cn/n/答案前的答卷'>@答案前的答卷</a>:九寨沟不错，美得像仙境", 'like_counts': 0, 'liked': False}
+{'id': 4418509998599690, 'created_at': '9小时前', 'source': '', 'user': {'id': 5175429989, 'screen_name': '小冰', 'profile_image_url': 'https://tvax3.sinaimg.cn/crop.0.0.1219.1219.180/005EfzLfly8fwb2v5h3dlj30xv0xvb2a.jpg?KID=imgbed,tva&Expires=1568984999&ssig=kvd2dxXH0s', 'verified': True, 'verified_type': 0, 'followers_count': 5114696, 'verified_type_ext': 1, 'mbtype': 12, 'profile_url': 'https://m.weibo.cn/u/5175429989?uid=5175429989', 'remark': '', 'following': False, 'follow_me': False}, 'text': "回复<a href='https://m.weibo.cn/n/答案前的答卷'>@答案前的答卷</a>:九寨沟不错，美得像仙境", 'reply_id': 4418509994400174, 'reply_text': "<a href='https://m.weibo.cn/n/小冰'>@小冰</a>  十一去哪里", 'like_counts': 0, 'liked': False}
+{'id': 4418509994400174, 'created_at': '9小时前', 'source': '', 'user': {'id': 5493581449, 'screen_name': '答案前的答卷', 'profile_image_url': 'https://tva4.sinaimg.cn/crop.173.82.637.637.180/005ZMvupjw8etbx3ke9saj30qo0k0gne.jpg?KID=imgbed,tva&Expires=1568984999&ssig=GfLhc%2BdkG6', 'verified': False, 'verified_type': -1, 'followers_count': 1, 'mbtype': 0, 'profile_url': 'https://m.weibo.cn/u/5493581449?uid=5493581449', 'remark': '', 'following': False, 'follow_me': False}, 'text': "<a href='https://m.weibo.cn/n/小冰'>@小冰</a>  十一去哪里", 'like_counts': 0, 'liked': False}
